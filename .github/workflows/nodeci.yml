@@ -1,8 +1,0 @@
-name: node.js ci
-on: push
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: start lint
-      run: make lint
