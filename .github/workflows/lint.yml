@@ -1,8 +1,12 @@
 name: male lint
+
 on: push
+
 jobs:
   build:
+  
     runs-on: ubuntu-latest
+
     steps:
       - name: start lint
       run: |
