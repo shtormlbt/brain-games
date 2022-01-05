@@ -19,6 +19,6 @@ jobs:
     steps:
       - name: make lint
         # Install project
-        run: |
+      - run: |
           make lint
   
