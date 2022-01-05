@@ -11,14 +11,9 @@ jobs:
     # The type of machine to run the job on
     runs-on: ubuntu-latest
 
-    strategy:
-      # Node versions list
-      matrix:
-        node-version: [14.x]
-
     steps:
       - name: make lint
         # Install project
-      - run: |
-          make lint
+      run: |
+        make lint
   
