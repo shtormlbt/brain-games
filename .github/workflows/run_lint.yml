@@ -1,13 +1,20 @@
 # Name of workflow
 name: Run eslint
 
-# Trigger the workflow on push or pull request
-on: [push]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  Explore-GitHub-Actions:
-     # The type of machine to run the job on
+  build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 15.x, 16.x]
 
     steps:
       - run: make lint
