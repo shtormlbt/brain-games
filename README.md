@@ -5,12 +5,17 @@
 ![example workflow](https://github.com/shtormlbt/brain-games/actions/workflows/workflowT.yml/badge.svg)
 
 brain-games:
-
-[![asciicast](https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy.svg)](https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy)
-
-<a href="https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy" target="_blank"><img src="https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy.svg" /></a>
-
 https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy
+
+brain-even:
+https://asciinema.org/a/o62OojmJKe7DcOfVoknBfNkLn
+
+brain-calc:
+https://asciinema.org/a/XtB2XhrWINTRKO84Ch3BmiTsO
+
+brain-gcd:
+https://asciinema.org/a/T9N9CXsFDldeaqyLYJtxEcAMi
+https://asciinema.org/a/xAZuc21qeFqyeviinzbkT2QR5
 
 
 <p>Для установки пакета из операционной системы, используйте команду 'sudo npm link'. Её необходимо запускать из корневой директории проекта.</p>
