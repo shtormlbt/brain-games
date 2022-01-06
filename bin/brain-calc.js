@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import hellow from '../src/hellow.js';
+import calc from '../src/calc.js';
 
 console.log('Welcome to the Brain Games!');
-hellow();
+calc();
