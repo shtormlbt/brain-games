@@ -10,5 +10,7 @@ brain-games:
 
 <a href="https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy" target="_blank"><img src="https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy.svg" /></a>
 
+https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy
+
 
 <p>Для установки пакета из операционной системы, используйте команду 'sudo npm link'. Её необходимо запускать из корневой директории проекта.</p>
