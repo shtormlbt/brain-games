@@ -4,5 +4,9 @@
 
 ![example workflow](https://github.com/shtormlbt/brain-games/actions/workflows/workflowT.yml/badge.svg)
 
+brain-games:
+
+[![asciicast](https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy.svg)](https://asciinema.org/a/Ln35m6kLhWniCqcHPBAFIMVWy)
+
 
 <p>Для установки пакета из операционной системы, используйте команду 'sudo npm link'. Её необходимо запускать из корневой директории проекта.</p>
