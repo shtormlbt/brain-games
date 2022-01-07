@@ -17,5 +17,8 @@
 <p>https://asciinema.org/a/T9N9CXsFDldeaqyLYJtxEcAMi</p>
 <p>https://asciinema.org/a/xAZuc21qeFqyeviinzbkT2QR5</p>
 
+<p>brain-progression</p>
+<p>https://asciinema.org/a/rwBgcUjIFAyjs00HXtpU1hD1x</p>
+
 
 <p>Для установки пакета из операционной системы, используйте команду 'sudo npm link'. Её необходимо запускать из корневой директории проекта.</p>

@@ -9,12 +9,13 @@ export default () => {
     const rndProgressStart = Math.floor(Math.random() * 99);
     const rndHideNum = Math.floor(Math.random() * 9);
     const progression = [rndProgressStart];
-    for (let j = 0; j < 10; j += 1) {
+    for (let j = 0; j < 9; j += 1) {
       progression.push(progression[j] + rndProgressSteep);
     }
+    const expected = progression[rndHideNum];
     progression[rndHideNum] = '..';
     const quest = `${progression}`;
-    win = question(quest, rndHideNum, name);
+    win = question(quest, expected, name);
     if (win === false) {
       break;
     }
